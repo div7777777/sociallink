@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(90deg, #98504b, #f9b684 );
+}
+/* title */
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row;
+}
+.s{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 5s infinite s;
+}
+@keyframes s{
+    10%{
+        opacity: 0;
+    }
+}
+.o{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 3s infinite o;
+}
+@keyframes o{
+    10%{
+        opacity: 0;
+    }
+}
+.c{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 1s infinite c;
+}
+@keyframes c{
+    10%{
+        opacity: 0;
+    }
+}
+.i{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 4s infinite i;
+}
+@keyframes i{
+    10%{
+        opacity: 0;
+    }
+}
+.a{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 3s infinite a;
+}
+@keyframes a{
+    10%{
+        opacity: 0;
+    }
+}
+.l{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 2s infinite l;
+}
+@keyframes l{
+    10%{
+        opacity: 0;
+    }
+}
+._{
+    opacity: 0;
+}
+.ll{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 3s infinite ll;
+}
+@keyframes ll{
+    10%{
+        opacity: 0;
+    }
+}
+.ii{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 1s infinite ii;
+}
+@keyframes ii{
+    10%{
+        opacity: 0;
+    }
+}
+.n{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 5s infinite n;
+}
+@keyframes n{
+    10%{
+        opacity: 0;
+    }
+}
+.k{
+    opacity: 1;
+    color: white;
+    font-size: 35px;
+    animation: 2s infinite k;
+}
+@keyframes k{
+    10%{
+        opacity: 0;
+    }
+}
+/* social link */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.items{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.aa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+    background: #98504b;
+    border: 4px solid white;
+    animation: 7s infinite aa;
+}
+@keyframes aa{
+    50%{
+        transform: translateY(250px);
+    }
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+    background: #98504b;
+    border: 4px solid white;
+    animation: 7s infinite b;
+}
+@keyframes b{
+    50%{
+        transform: translateY(250px);
+    }
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+    background: #98504b;
+    border: 4px solid white;
+    animation: 7s infinite cc;
+}
+@keyframes cc{
+    50%{
+        transform: translateY(-180px);
+    }
+}
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+    background: #98504b;
+    border: 4px solid white;
+    animation: 7s infinite d;
+}
+@keyframes d{
+    50%{
+        transform: translateY(-85px);
+    }
+}
+.e{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+    background: #98504b;
+    border: 4px solid white;
+    animation: 7s infinite e;
+}
+@keyframes e{
+    50%{
+        transform: translateY(-260px);
+    }
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+/* contacte */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 150px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    background:  #98504b;
+    border-radius: 20px;
+    height: 70px;
+    width: 100px;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    border: 4px solid white;
+    background:  #98504b;
+    border-radius: 20px;
+    height: 70px;
+    width: 100px;
+}
+
+.adr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+     background:  #98504b;
+     border-radius: 20px;
+     height: 70px;
+     width: 100px;
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 140px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #98504b;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.authentique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
